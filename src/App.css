@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+.accordion-button {
+  background: #296DA9 !important;
+  border-radius: 5px !important;
+}
+
+.accordion-body {
+  background: #f2f2f2 !important;
+  border-radius: 5px;
+  max-height: 300px;
+  
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
